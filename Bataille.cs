@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExoBataille
 {
-    class Bataille
+    public class Bataille
     {
         private DateOnly dateB;
         private string lieu;
