@@ -1,6 +1,6 @@
 ﻿namespace ExoBataille
 {
-    public class arme
+    public class Arme
     {
         private string nomArme;
         private int cout;
@@ -30,6 +30,13 @@
             {
                 cout = unCout;
             }
+        }
+
+        // constructeur
+        public Arme (string nomArme, int cout)
+        {
+            this.nomArme = nomArme;
+            this.cout = cout;
         }
     }
 }
